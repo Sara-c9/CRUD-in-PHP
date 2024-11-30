@@ -26,13 +26,16 @@ echo "Concatenation of ". $number1 ." and ". $number2 ." is: ". $concatenate . "
 
 <?php
 $age = 25;
+$days = $age * 365;
+$hours = $days * 24;
+$minutes = $hours * 60;
 
 echo "Welcome to the Age Calculator!" . "<br>";
 echo "Your age: " . $age ."<br>";
 echo "You have been alive for: " . "<br>";
-echo $age * 365 . " days" . "<br>";
-echo $age * 365*24 . " hours" . "<br>";
-echo $age * 365*24*60 . " minutes" . "<br>";
+echo $days . " days" . "<br>";
+echo $hours . " hours" . "<br>";
+echo $minutes . " minutes" . "<br>";
 
  ?>
 

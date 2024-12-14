@@ -8,13 +8,8 @@
     <title>Age</title>
 </head>
 <body>
-    <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="GET">
-       Insert your age: <input type = "number" name = "age"><br>
-    </form>
     <?php
-        if(isset($_POST["age"])) 
-        {
-            $age = $_POST["age"];
+    $age = 52;
         if ($age < 13) {
             echo "<br>"."You are a child.";
         } elseif ($age >= 13 && $age <= 17) {
@@ -23,7 +18,6 @@
             echo "<br>"."You are an adult.";
         } else {
             echo "<br>"."You are a senior citizen.";
-        }
         }
     ?> 
 </body>

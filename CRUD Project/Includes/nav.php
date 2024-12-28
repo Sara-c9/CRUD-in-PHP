@@ -27,7 +27,7 @@
           <a class="nav-link" href="create.php">Create <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php">Read</a>
+          <a class="nav-link" href="read.php">Read</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="update.php">Update</a>

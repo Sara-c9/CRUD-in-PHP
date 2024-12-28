@@ -33,7 +33,7 @@
           <a class="nav-link" href="update.php">Update</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="delete.php">Delete</a>
+          <a class="nav-link" href="delete_form.php">Delete</a>
         </li>
       </ul>
     </div>

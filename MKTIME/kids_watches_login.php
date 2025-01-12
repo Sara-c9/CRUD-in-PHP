@@ -1,5 +1,5 @@
 <?php
-include('nav.php');
+include('session.php');
 
 require('connection_db.php');
 

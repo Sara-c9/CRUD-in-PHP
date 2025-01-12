@@ -1,9 +1,7 @@
 <?php
-// Access the session
-session_start() ;
+session_start();
 
-// If not loggeg in, redirect
-if ( !isset( $_SESSION[ 'user_id' ] ) ) { require ( 'login_tools.php' ) ; load() ; }
+if(!isset($_SESSION['user_id'])) {require ('login_tools.php'); load();}
 ?>
 
 <!doctype html>
@@ -17,15 +15,10 @@ if ( !isset( $_SESSION[ 'user_id' ] ) ) { require ( 'login_tools.php' ) ; load()
   <body>
   <nav class="navbar navbar-expand-lg bg-dark text-white">
         <div class="container-fluid">
-        <a class="navbar-brand text-white fw-bold" href="home_login.php"> Welcome to MKTIME <?php echo $_SESSION['first_name'] . '!'?></a>
+        <a class="navbar-brand text-white fw-bold" href="home_login.php"> Welcome <?php echo $_SESSION['first_name'] . '!'?></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="women_watches.php">Women</a></li>
-            <li><a class="dropdown-item" href="men_watches.php">Men</a></li>
-            <li><a class="dropdown-item" href="kids_watches.php">Kids</a></li>
-          </ul>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">

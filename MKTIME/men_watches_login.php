@@ -1,11 +1,11 @@
 <?php
-include('nav.php');
+include('session.php');
 
 require('connection_db.php');
 
 echo '<div class="row">';
 
-$q = 'SELECT * FROM kids_watches';
+$q = 'SELECT * FROM men_watches';
 $r = mysqli_query ($link,$q);
 
 if (mysqli_num_rows ($r)>0) {

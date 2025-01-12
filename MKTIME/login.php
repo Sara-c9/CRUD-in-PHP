@@ -12,7 +12,7 @@ if ( isset( $errors ) && !empty( $errors ) ) {
   <div class="d-flex justify-content-center align-items-center h-100">
     <div class="card shadow-sm border-0" style="max-width: 400px; width: 100%;">
       <div class="card-body">
-        <h4 class="text-center text-success mb-1 fs-2">Welcome Back!</h4>
+        <h6 class="text-center text-success mb-1 fs-2">Log in or <a href="register.php">register</a> to shop</h6>
         <form action="login_action.php" method="post">
           <div class="mb-1">
             <label for="email" class="form-label"></label>

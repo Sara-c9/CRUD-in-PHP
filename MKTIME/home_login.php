@@ -1,5 +1,5 @@
 <?php
-include('nav.php');
+require ('session.php');
 ?>
 <div id="carouselExampleDark" class="carousel carousel-dark slide">
   <div class="carousel-indicators">
@@ -11,19 +11,19 @@ include('nav.php');
     <div class="carousel-item active" data-bs-interval="10000">
       <img src="http://localhost/Projects/MKTIME/Img/women_watch.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <a href="women_watches.php"><button type="button" class="btn btn-success btn-lg w-50" >Women Collection</button></a>
+        <a href="women_watches_login.php"><button type="button" class="btn btn-success btn-lg w-50" >Women Collection</button></a>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
       <img src="http://localhost/Projects/MKTIME/Img/men_watch.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-      <a href="men_watches.php"><button type="button" class="btn btn-success btn-lg w-50" >Men Collection</button></a>
+      <a href="men_watches_login.php"><button type="button" class="btn btn-success btn-lg w-50" >Men Collection</button></a>
       </div>
     </div>
     <div class="carousel-item">
       <img src="http://localhost/Projects/MKTIME/Img/kids_watch.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-      <a href="kids_watches.php"><button type="button" class="btn btn-success btn-lg w-50" >Kids Collection</button></a>
+      <a href="kids_watches_login.php"><button type="button" class="btn btn-success btn-lg w-50" >Kids Collection</button></a>
       </div>
     </div>
   </div>

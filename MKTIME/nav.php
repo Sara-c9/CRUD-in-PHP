@@ -11,6 +11,21 @@
     <nav class="navbar navbar-expand-lg bg-dark text-white">
         <div class="container-fluid">
           <a class="navbar-brand fw-bold text-white" href="home.php">MKTIME</a>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="women_watches.php">Women</a></li>
+            <li><a class="dropdown-item" href="men_watches.php">Men</a></li>
+            <li><a class="dropdown-item" href="kids_watches.php">Kids</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+          <a class="nav-link active text-white" aria-current="page"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -20,7 +35,7 @@
                 <a class="nav-link active text-white" aria-current="page" href="register.php">Register</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="login.php">Login</a>
+              <a class="nav-link active text-white" aria-current="page" href="login.php">Login</a>
               </li>
             </ul>
           </div>

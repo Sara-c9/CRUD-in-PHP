@@ -1,4 +1,5 @@
 <?php
+
 include('nav.php');
 
 if ( isset( $errors ) && !empty( $errors ) ) {

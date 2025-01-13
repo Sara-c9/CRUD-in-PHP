@@ -14,13 +14,13 @@
           <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
-          <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <button id="productsBtn"class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             Products
           </button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="women_watches.php">Women</a></li>
-            <li><a class="dropdown-item" href="men_watches.php">Men</a></li>
-            <li><a class="dropdown-item" href="kids_watches.php">Kids</a></li>
+            <li><a id="womenWatches" class="dropdown-item" href="women_watches.php">Women</a></li>
+            <li><a id="menWatches" class="dropdown-item" href="men_watches.php">Men</a></li>
+            <li><a id="kidsWatches" class="dropdown-item" href="kids_watches.php">Kids</a></li>
           </ul>
         </li>
       </ul>

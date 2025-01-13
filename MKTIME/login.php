@@ -28,7 +28,7 @@ if ( isset( $errors ) && !empty( $errors ) ) {
             </a>
           </div>
           <div class="text-center mt-4">
-            <input type="submit" class="btn btn-success btn-lg w-100" value="Login">
+            <input id="login" type="submit" class="btn btn-success btn-lg w-100" value="Login">
           </div>
         </form>
       </div>

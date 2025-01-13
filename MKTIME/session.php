@@ -46,7 +46,7 @@ if ( !isset( $_SESSION[ 'user_id' ] ) ) { require ( 'login_tools.php' ) ; load()
               Shopping Cart
               </a>
               <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="logout.php">Logout</a>
+              <a id="logout" class="nav-link active text-white" aria-current="page" href="logout.php">Logout</a>
               </li>
               </li>
               <li class="nav-item">

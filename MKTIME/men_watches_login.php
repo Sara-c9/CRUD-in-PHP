@@ -5,7 +5,7 @@ require('connection_db.php');
 
 echo '<div class="row">';
 
-$q = 'SELECT * FROM men_watches';
+$q = 'SELECT * FROM products WHERE category="men_collection"';
 $r = mysqli_query ($link,$q);
 
 if (mysqli_num_rows ($r)>0) {

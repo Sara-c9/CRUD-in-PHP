@@ -6,7 +6,7 @@ if ( isset( $_GET['id'] ) ) $id = $_GET['id'];
 
 require ('connection_db.php');
 
-$q = "SELECT * FROM women_watches WHERE item_id = $id";
+$q = "SELECT * FROM products WHERE item_id = $id";
 $r = mysqli_query( $link, $q );
 
 if ( mysqli_num_rows( $r ) == 1 ) {

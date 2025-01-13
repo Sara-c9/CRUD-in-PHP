@@ -1,5 +1,5 @@
 <?php
-require ('session.php');
+include('session.php');
 ?>
 <div id="carouselExampleDark" class="carousel carousel-dark slide">
   <div class="carousel-indicators">

@@ -11,7 +11,7 @@ $r = mysqli_query ($link, $q);
 
 $order_id = mysqli_insert_id($link) ;
 
-$q = "SELECT * FROM women_watches WHERE item_id IN (";
+$q = "SELECT * FROM products WHERE item_id IN (";
 foreach ($_SESSION['cart'] as $id => $value) { $q .= $id . ','; }
 $q = substr( $q, 0, -1 ) . ') ORDER BY item_id ASC';
 $r = mysqli_query ($link, $q);

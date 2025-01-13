@@ -19,7 +19,7 @@ $total = 0;
 if (!empty($_SESSION['cart'])) {
     require ('connection_db.php');
 
-    $q = "SELECT * FROM women_watches WHERE item_id IN (";
+    $q = "SELECT * FROM products WHERE item_id IN (";
     foreach ($_SESSION['cart'] as $id => $value) { 
       $q .= $id . ','; 
     }
